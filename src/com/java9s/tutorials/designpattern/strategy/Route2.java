@@ -17,7 +17,7 @@ public class Route2 implements Route{
 	@Override
 	public Enum<Traffic> getTraffic() {
 		Random random = new Random();
-		if(random.nextBoolean()==true){
+		if(random.nextBoolean()){
 			System.out.println("High Traffic on Route2");
 			return Traffic.HIGH_TRAFFIC;
 		}
