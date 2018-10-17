@@ -21,6 +21,7 @@ public class Navigation {
 	}
 	
 	public void navigate(){
+		System.out.println(String.format("You have %s miles to your target.", route.getTotalDistance()));
 		route.getDirections();
 	}
 }
